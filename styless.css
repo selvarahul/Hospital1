@@ -1,0 +1,138 @@
+/* General body and layout styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ccffcc; /* Light green background */
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #b3ffb3; /* Slightly darker green for header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #009900; /* Dark green on hover */
+  }
+  
+  /* Mobile menu toggle */
+  .menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    nav {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav.active {
+      display: flex;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    nav ul li {
+      text-align: center;
+    }
+  }
+  
+  /* Registration form container */
+  .registration-container {
+    background-color: #e6ffe6; /* Light green box */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px; /* Restrict maximum width */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px auto; /* Center the container */
+  }
+  
+  .registration-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .registration-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .registration-container label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .registration-container input,
+  .registration-container select,
+  .registration-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .registration-container input[type="file"] {
+    padding: 5px;
+  }
+  
+  .registration-container button {
+    padding: 10px;
+    background-color: #00cc00; /* Bright green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .registration-container button:hover {
+    background-color: #009900; /* Dark green on hover */
+  }
+  
+  /* Responsive layout adjustments */
+  @media screen and (max-width: 768px) {
+    .registration-container {
+      width: 95%;
+    }
+  }
+  

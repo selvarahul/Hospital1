@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccffcc;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #99ff99;
+    color: #000; /* Added a valid color value */
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.header .menu {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.header .logout {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    background-color: #ccf2d8;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow for better design */
+}
+
+.profile h2 {
+    text-align: center;
+    margin-bottom: 25px; /* Adjusted spacing for better layout */
+}
+
+.profile img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    object-fit: cover; /* Ensures the image is well-cropped */
+}
+
+.profile .info {
+    margin: 20px 0;
+}
+
+.profile .info div {
+    margin: 5px 0;
+    font-size: 16px; /* Standardized font size */
+    color: #333; /* Better readability */
+}
+
+.profile .edit-btn {
+    text-align: center;
+}
+
+.profile .edit-btn button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added hover effect */
+}
+
+.profile .edit-btn button:hover {
+    background-color: #45a049; /* Slightly darker green for hover */
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease; /* Added hover effect */
+}
+
+.actions button:hover {
+    background-color: #45a049; /* Slightly darker green for hover */
+}

@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ccffcc; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #99ff99;
+  width: 100%;
+  position: absolute; 
+  top: 0;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header .login-btn {
+  color: #ffffff;
+  background-color: #00cc00; /* Bright green */
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.content p {
+  font-size: 18px;
+  font-style: italic;
+  margin: 5px 0 20px 0;
+}
+
+.registration {
+  background-color: #e6ffe6; /* Light green box */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.registration p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.registration button {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #00cc00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration button:hover {
+  background-color: #009900; /* Darker green on hover */
+}
+a{
+  text-decoration: none;
+}
